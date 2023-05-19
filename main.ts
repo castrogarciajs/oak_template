@@ -1,5 +1,5 @@
-import { Application, oakCors } from "./deps.ts";
-import router from "./routes/deno.ts";
+import { Application, oakCors } from "@/deps.ts";
+import router from "@/routes/deno.ts";
 
 const app = new Application();
 
