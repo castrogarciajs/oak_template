@@ -1,0 +1,12 @@
+{
+  "lock": true,
+  "importMap": "imports.json",
+  "tasks": {
+    "start": "deno run ./main.ts"
+  },
+  "lint": {
+    "files": {
+      "include": ["main.ts"]
+    }
+  }
+}
