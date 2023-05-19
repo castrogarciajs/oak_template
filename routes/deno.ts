@@ -1,5 +1,5 @@
-import { Router } from "$/deps.ts";
-import data from "$/data.json" assert { type: "json" };
+import { Router } from "@/deps.ts";
+import data from "@/data.json" assert { type: "json" };
 
 const router = new Router();
 
